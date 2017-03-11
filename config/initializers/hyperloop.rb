@@ -1,3 +1,3 @@
-HyperMesh.configuration do |config|
+Hyperloop.configuration do |config|
   config.transport = :simple_poller
 end
