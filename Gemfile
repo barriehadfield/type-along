@@ -35,6 +35,20 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#gem 'react-rails', '1.4.2'
+gem 'hyper-rails', git: 'https://github.com/ruby-hyperloop/hyper-rails.git'
+gem 'opal-rails', '0.9.1'
+gem 'opal-browser', '0.2.0'
+gem 'hyper-react', '0.11.0'
+# gem 'hyper-mesh', '0.5.3'
+# gem 'hyper-router', '2.4.0'
+gem 'hyper-operation', git: 'https://github.com/ruby-hyperloop/hyper-operation.git'
+gem 'hyper-store', git: 'https://github.com/ruby-hyperloop/hyper-store.git'
+gem 'therubyracer', platforms: :ruby
+
+gem 'opal_hot_reloader', git: 'https://github.com/fkchang/opal-hot-reloader.git'
+gem 'foreman'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
