@@ -11,9 +11,11 @@
 // about supported directives.
 //
 //= require 'hyperloop'
+//= require 'react'
+//= require 'react_ujs'
+
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
 
 Opal.load('hyperloop');

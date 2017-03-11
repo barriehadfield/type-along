@@ -1,3 +1,3 @@
-# HyperMesh.configuration do |config|
-#   config.transport = :simple_poller
-# end
+HyperMesh.configuration do |config|
+  config.transport = :simple_poller
+end
